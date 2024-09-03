@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "music-jsonld-poc2"
+version = "0.1.0"
+description = ""
+authors = ["Bart Kleijngeld <bartkl@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyld = "^2.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
