@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 pyld = "^2.0.4"
+rdflib = "^7.0.0"
+linkml = "^1.8.3"
 
 
 [build-system]

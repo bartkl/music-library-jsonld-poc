@@ -19,12 +19,11 @@ classes:
     attributes:
       albums:
         multivalued: true
-        inlined_as_list: true
         range: Album
   Album:  # Deliberately ambiguous whether it's a release, grouping, recording, etc.
+    class_uri: schema:MusicRelease
     slots:
       - id
-      - type
     attributes:
       added_at:
         range: float
@@ -57,8 +56,5 @@ classes:
         range: string
       rating:
         range: integer
-      
 slots:
   id:
-    identifier: true
-  type:

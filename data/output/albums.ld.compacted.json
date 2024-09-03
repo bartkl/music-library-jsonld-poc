@@ -1,0 +1,259 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "bartkl": "http://data.bartkl.com/music-library/",
+    "dct": "http://purl.org/dc/terms/",
+    "linkml": "https://w3id.org/linkml/",
+    "schema": "http://schema.org/",
+    "@vocab": "http://data.bartkl.com/music-library/",
+    "added_at": {
+      "@type": "xsd:float",
+      "@id": "added_at"
+    },
+    "album_artist": {
+      "@id": "album_artist"
+    },
+    "album_types": {
+      "@id": "album_types"
+    },
+    "country": {
+      "@id": "country"
+    },
+    "discogs_album_id": {
+      "@id": "discogs_album_id"
+    },
+    "discogs_artist_id": {
+      "@id": "discogs_artist_id"
+    },
+    "genre": {
+      "@id": "genre"
+    },
+    "is_compilation": {
+      "@type": "xsd:boolean",
+      "@id": "is_compilation"
+    },
+    "label": {
+      "@id": "label"
+    },
+    "musicbrainz_album_artist_id": {
+      "@id": "musicbrainz_album_artist_id"
+    },
+    "musicbrainz_album_id": {
+      "@id": "musicbrainz_album_id"
+    },
+    "original_year": {
+      "@id": "original_year"
+    },
+    "rating": {
+      "@type": "xsd:integer",
+      "@id": "rating"
+    },
+    "title": {
+      "@id": "dct:title"
+    },
+    "year": {
+      "@id": "year"
+    },
+    "albums": {
+      "@type": "@id",
+      "@id": "albums"
+    },
+    "id": {
+      "@id": "id"
+    },
+    "Album": {
+      "@id": "schema:MusicRelease"
+    },
+    "Container": {
+      "@id": "Container"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb1",
+      "@type": "Container",
+      "albums": [
+        "_:ne8a18a06b52c497aa66f0461d925b44bb2",
+        "_:ne8a18a06b52c497aa66f0461d925b44bb3",
+        "_:ne8a18a06b52c497aa66f0461d925b44bb4",
+        "_:ne8a18a06b52c497aa66f0461d925b44bb5",
+        "_:ne8a18a06b52c497aa66f0461d925b44bb6",
+        "_:ne8a18a06b52c497aa66f0461d925b44bb7",
+        "_:ne8a18a06b52c497aa66f0461d925b44bb8",
+        "_:ne8a18a06b52c497aa66f0461d925b44bb9",
+        "_:ne8a18a06b52c497aa66f0461d925b44bb10",
+        "_:ne8a18a06b52c497aa66f0461d925b44bb11"
+      ]
+    },
+    {
+      "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb2",
+      "@type": "Album",
+      "album_artist": "Aphex Twin",
+      "album_types": "album",
+      "country": "US",
+      "discogs_album_id": "0",
+      "genre": "Ambient, IDM",
+      "id": "2",
+      "bartkl:is_compilation": false,
+      "label": "Sire Records",
+      "musicbrainz_album_artist_id": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+      "musicbrainz_album_id": "7429a193-0c0a-40a1-abf2-6968e424f177",
+      "original_year": "1994",
+      "year": "1994",
+      "title": "Selected Ambient Works, Volume II"
+    },
+    {
+      "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb3",
+      "@type": "Album",
+      "album_artist": "Aphex Twin",
+      "album_types": "album",
+      "country": "US",
+      "discogs_album_id": "0",
+      "genre": "IDM",
+      "id": "7",
+      "bartkl:is_compilation": false,
+      "label": "Warp",
+      "musicbrainz_album_artist_id": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+      "musicbrainz_album_id": "29625757-3991-4cfa-8d8a-3e1d5bd1f0d5",
+      "original_year": "2014",
+      "year": "2014",
+      "title": "Syro"
+    },
+    {
+      "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb4",
+      "@type": "Album",
+      "album_artist": "Aphex Twin",
+      "album_types": "album",
+      "country": "JP",
+      "discogs_album_id": "0",
+      "genre": "IDM",
+      "id": "6",
+      "bartkl:is_compilation": false,
+      "label": "Warner Music Japan",
+      "musicbrainz_album_artist_id": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+      "musicbrainz_album_id": "88224d97-5fd2-48f9-bda6-1f025bcd136f",
+      "original_year": "2001",
+      "year": "2001",
+      "title": "Drukqs"
+    },
+    {
+      "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb5",
+      "@type": "Album",
+      "album_artist": "Run the Jewels",
+      "album_types": "album",
+      "country": "DZ",
+      "discogs_album_id": "0",
+      "genre": "Rap & Hip-Hop",
+      "id": "8",
+      "bartkl:is_compilation": false,
+      "label": "BMG",
+      "musicbrainz_album_artist_id": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+      "musicbrainz_album_id": "f0771d33-5730-45e4-8fa0-93ca3c83c3cf",
+      "original_year": "2020",
+      "year": "2020",
+      "title": "RTJ4"
+    },
+    {
+      "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb6",
+      "@type": "Album",
+      "album_artist": "Aphex Twin",
+      "album_types": "ep",
+      "country": "GB",
+      "discogs_album_id": "0",
+      "genre": "IDM",
+      "id": "5",
+      "bartkl:is_compilation": false,
+      "label": "Warp",
+      "musicbrainz_album_artist_id": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+      "musicbrainz_album_id": "0a6972ee-0a86-3068-a835-f9035c968d99",
+      "original_year": "1997",
+      "year": "1997",
+      "title": "Come to Daddy"
+    },
+    {
+      "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb7",
+      "@type": "Album",
+      "album_artist": "Aphex Twin",
+      "album_types": "album",
+      "country": "DE",
+      "discogs_album_id": "0",
+      "genre": "IDM",
+      "id": "3",
+      "bartkl:is_compilation": false,
+      "label": "Warp",
+      "musicbrainz_album_artist_id": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+      "musicbrainz_album_id": "cf577924-6dc7-4948-841b-6f69c04f822f",
+      "original_year": "1995",
+      "year": "1995",
+      "title": "\u2026I Care Because You Do"
+    },
+    {
+      "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb8",
+      "@type": "Album",
+      "album_artist": "Aphex Twin",
+      "album_types": "album",
+      "country": "JP",
+      "discogs_album_id": "0",
+      "genre": "Ambient, IDM",
+      "id": "1",
+      "bartkl:is_compilation": false,
+      "label": "Sony Records",
+      "musicbrainz_album_artist_id": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+      "musicbrainz_album_id": "524d02eb-d7ee-3e30-a690-5ce72dd723d7",
+      "original_year": "1992",
+      "year": "1992",
+      "title": "Selected Ambient Works 85\u201392"
+    },
+    {
+      "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb9",
+      "@type": "Album",
+      "album_artist": "Nmesh / t e l e p a t h \u30c6\u30ec\u30d1\u30b7\u30fc\u80fd\u529b\u8005",
+      "album_types": "album",
+      "country": "XW",
+      "discogs_album_id": "0",
+      "genre": "Vaporwave, Ambient",
+      "id": "9",
+      "bartkl:is_compilation": false,
+      "label": "Dream Catalogue",
+      "musicbrainz_album_artist_id": "c9f61590-7151-4705-8ee8-c4a19dfc2f54",
+      "musicbrainz_album_id": "139c9492-ade6-4158-8da4-d7b20f1defea",
+      "original_year": "2015",
+      "year": "2015",
+      "title": "\u30ed\u30b9\u30c8\u30a8\u30c7\u30f3\u3078\u306e\u30d1\u30b9"
+    },
+    {
+      "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb10",
+      "@type": "Album",
+      "album_artist": "Les McCann",
+      "album_types": "album",
+      "country": "US",
+      "discogs_album_id": "0",
+      "genre": "Fusion",
+      "id": "10",
+      "bartkl:is_compilation": false,
+      "label": "Water",
+      "musicbrainz_album_artist_id": "bc16d640-a069-42ec-a8c1-c24fd5c3d206",
+      "musicbrainz_album_id": "675a3a5f-6fd9-488c-b710-2cc18b3ca2b6",
+      "original_year": "1971",
+      "year": "1971",
+      "title": "Invitation to Openness"
+    },
+    {
+      "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb11",
+      "@type": "Album",
+      "album_artist": "Aphex Twin",
+      "album_types": "album",
+      "country": "CA",
+      "discogs_album_id": "0",
+      "genre": "IDM",
+      "id": "4",
+      "bartkl:is_compilation": false,
+      "label": "Sire Records",
+      "musicbrainz_album_artist_id": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+      "musicbrainz_album_id": "dc1239a9-8b54-4949-b8a0-c5526bd7ea60",
+      "original_year": "1996",
+      "year": "1996",
+      "title": "Richard D. James Album"
+    }
+  ]
+}
