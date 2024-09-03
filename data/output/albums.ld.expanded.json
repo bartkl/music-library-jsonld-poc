@@ -1,257 +1,44 @@
 [
   {
-    "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb1",
+    "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb1",
     "@type": [
       "http://data.bartkl.com/music-library/Container"
     ],
     "http://data.bartkl.com/music-library/albums": [
       {
-        "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb2"
+        "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb2"
       },
       {
-        "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb3"
+        "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb3"
       },
       {
-        "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb4"
+        "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb4"
       },
       {
-        "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb5"
+        "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb5"
       },
       {
-        "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb6"
+        "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb6"
       },
       {
-        "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb7"
+        "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb7"
       },
       {
-        "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb8"
+        "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb8"
       },
       {
-        "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb9"
+        "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb9"
       },
       {
-        "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb10"
+        "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb10"
       },
       {
-        "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb11"
+        "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb11"
       }
     ]
   },
   {
-    "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb2",
-    "@type": [
-      "http://schema.org/MusicRelease"
-    ],
-    "http://data.bartkl.com/music-library/album_artist": [
-      {
-        "@value": "Aphex Twin"
-      }
-    ],
-    "http://data.bartkl.com/music-library/album_types": [
-      {
-        "@value": "album"
-      }
-    ],
-    "http://data.bartkl.com/music-library/country": [
-      {
-        "@value": "US"
-      }
-    ],
-    "http://data.bartkl.com/music-library/discogs_album_id": [
-      {
-        "@value": "0"
-      }
-    ],
-    "http://data.bartkl.com/music-library/genre": [
-      {
-        "@value": "Ambient, IDM"
-      }
-    ],
-    "http://data.bartkl.com/music-library/id": [
-      {
-        "@value": "2"
-      }
-    ],
-    "http://data.bartkl.com/music-library/is_compilation": [
-      {
-        "@value": false
-      }
-    ],
-    "http://data.bartkl.com/music-library/label": [
-      {
-        "@value": "Sire Records"
-      }
-    ],
-    "http://data.bartkl.com/music-library/musicbrainz_album_artist_id": [
-      {
-        "@value": "f22942a1-6f70-4f48-866e-238cb2308fbd"
-      }
-    ],
-    "http://data.bartkl.com/music-library/musicbrainz_album_id": [
-      {
-        "@value": "7429a193-0c0a-40a1-abf2-6968e424f177"
-      }
-    ],
-    "http://data.bartkl.com/music-library/original_year": [
-      {
-        "@value": "1994"
-      }
-    ],
-    "http://data.bartkl.com/music-library/year": [
-      {
-        "@value": "1994"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Selected Ambient Works, Volume II"
-      }
-    ]
-  },
-  {
-    "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb3",
-    "@type": [
-      "http://schema.org/MusicRelease"
-    ],
-    "http://data.bartkl.com/music-library/album_artist": [
-      {
-        "@value": "Aphex Twin"
-      }
-    ],
-    "http://data.bartkl.com/music-library/album_types": [
-      {
-        "@value": "album"
-      }
-    ],
-    "http://data.bartkl.com/music-library/country": [
-      {
-        "@value": "US"
-      }
-    ],
-    "http://data.bartkl.com/music-library/discogs_album_id": [
-      {
-        "@value": "0"
-      }
-    ],
-    "http://data.bartkl.com/music-library/genre": [
-      {
-        "@value": "IDM"
-      }
-    ],
-    "http://data.bartkl.com/music-library/id": [
-      {
-        "@value": "7"
-      }
-    ],
-    "http://data.bartkl.com/music-library/is_compilation": [
-      {
-        "@value": false
-      }
-    ],
-    "http://data.bartkl.com/music-library/label": [
-      {
-        "@value": "Warp"
-      }
-    ],
-    "http://data.bartkl.com/music-library/musicbrainz_album_artist_id": [
-      {
-        "@value": "f22942a1-6f70-4f48-866e-238cb2308fbd"
-      }
-    ],
-    "http://data.bartkl.com/music-library/musicbrainz_album_id": [
-      {
-        "@value": "29625757-3991-4cfa-8d8a-3e1d5bd1f0d5"
-      }
-    ],
-    "http://data.bartkl.com/music-library/original_year": [
-      {
-        "@value": "2014"
-      }
-    ],
-    "http://data.bartkl.com/music-library/year": [
-      {
-        "@value": "2014"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Syro"
-      }
-    ]
-  },
-  {
-    "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb4",
-    "@type": [
-      "http://schema.org/MusicRelease"
-    ],
-    "http://data.bartkl.com/music-library/album_artist": [
-      {
-        "@value": "Aphex Twin"
-      }
-    ],
-    "http://data.bartkl.com/music-library/album_types": [
-      {
-        "@value": "album"
-      }
-    ],
-    "http://data.bartkl.com/music-library/country": [
-      {
-        "@value": "JP"
-      }
-    ],
-    "http://data.bartkl.com/music-library/discogs_album_id": [
-      {
-        "@value": "0"
-      }
-    ],
-    "http://data.bartkl.com/music-library/genre": [
-      {
-        "@value": "IDM"
-      }
-    ],
-    "http://data.bartkl.com/music-library/id": [
-      {
-        "@value": "6"
-      }
-    ],
-    "http://data.bartkl.com/music-library/is_compilation": [
-      {
-        "@value": false
-      }
-    ],
-    "http://data.bartkl.com/music-library/label": [
-      {
-        "@value": "Warner Music Japan"
-      }
-    ],
-    "http://data.bartkl.com/music-library/musicbrainz_album_artist_id": [
-      {
-        "@value": "f22942a1-6f70-4f48-866e-238cb2308fbd"
-      }
-    ],
-    "http://data.bartkl.com/music-library/musicbrainz_album_id": [
-      {
-        "@value": "88224d97-5fd2-48f9-bda6-1f025bcd136f"
-      }
-    ],
-    "http://data.bartkl.com/music-library/original_year": [
-      {
-        "@value": "2001"
-      }
-    ],
-    "http://data.bartkl.com/music-library/year": [
-      {
-        "@value": "2001"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Drukqs"
-      }
-    ]
-  },
-  {
-    "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb5",
+    "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb2",
     "@type": [
       "http://schema.org/MusicRelease"
     ],
@@ -322,7 +109,78 @@
     ]
   },
   {
-    "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb6",
+    "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb3",
+    "@type": [
+      "http://schema.org/MusicRelease"
+    ],
+    "http://data.bartkl.com/music-library/album_artist": [
+      {
+        "@value": "Aphex Twin"
+      }
+    ],
+    "http://data.bartkl.com/music-library/album_types": [
+      {
+        "@value": "album"
+      }
+    ],
+    "http://data.bartkl.com/music-library/country": [
+      {
+        "@value": "US"
+      }
+    ],
+    "http://data.bartkl.com/music-library/discogs_album_id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://data.bartkl.com/music-library/genre": [
+      {
+        "@value": "IDM"
+      }
+    ],
+    "http://data.bartkl.com/music-library/id": [
+      {
+        "@value": "7"
+      }
+    ],
+    "http://data.bartkl.com/music-library/is_compilation": [
+      {
+        "@value": false
+      }
+    ],
+    "http://data.bartkl.com/music-library/label": [
+      {
+        "@value": "Warp"
+      }
+    ],
+    "http://data.bartkl.com/music-library/musicbrainz_album_artist_id": [
+      {
+        "@value": "f22942a1-6f70-4f48-866e-238cb2308fbd"
+      }
+    ],
+    "http://data.bartkl.com/music-library/musicbrainz_album_id": [
+      {
+        "@value": "29625757-3991-4cfa-8d8a-3e1d5bd1f0d5"
+      }
+    ],
+    "http://data.bartkl.com/music-library/original_year": [
+      {
+        "@value": "2014"
+      }
+    ],
+    "http://data.bartkl.com/music-library/year": [
+      {
+        "@value": "2014"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Syro"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb4",
     "@type": [
       "http://schema.org/MusicRelease"
     ],
@@ -393,149 +251,7 @@
     ]
   },
   {
-    "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb7",
-    "@type": [
-      "http://schema.org/MusicRelease"
-    ],
-    "http://data.bartkl.com/music-library/album_artist": [
-      {
-        "@value": "Aphex Twin"
-      }
-    ],
-    "http://data.bartkl.com/music-library/album_types": [
-      {
-        "@value": "album"
-      }
-    ],
-    "http://data.bartkl.com/music-library/country": [
-      {
-        "@value": "DE"
-      }
-    ],
-    "http://data.bartkl.com/music-library/discogs_album_id": [
-      {
-        "@value": "0"
-      }
-    ],
-    "http://data.bartkl.com/music-library/genre": [
-      {
-        "@value": "IDM"
-      }
-    ],
-    "http://data.bartkl.com/music-library/id": [
-      {
-        "@value": "3"
-      }
-    ],
-    "http://data.bartkl.com/music-library/is_compilation": [
-      {
-        "@value": false
-      }
-    ],
-    "http://data.bartkl.com/music-library/label": [
-      {
-        "@value": "Warp"
-      }
-    ],
-    "http://data.bartkl.com/music-library/musicbrainz_album_artist_id": [
-      {
-        "@value": "f22942a1-6f70-4f48-866e-238cb2308fbd"
-      }
-    ],
-    "http://data.bartkl.com/music-library/musicbrainz_album_id": [
-      {
-        "@value": "cf577924-6dc7-4948-841b-6f69c04f822f"
-      }
-    ],
-    "http://data.bartkl.com/music-library/original_year": [
-      {
-        "@value": "1995"
-      }
-    ],
-    "http://data.bartkl.com/music-library/year": [
-      {
-        "@value": "1995"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "\u2026I Care Because You Do"
-      }
-    ]
-  },
-  {
-    "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb8",
-    "@type": [
-      "http://schema.org/MusicRelease"
-    ],
-    "http://data.bartkl.com/music-library/album_artist": [
-      {
-        "@value": "Aphex Twin"
-      }
-    ],
-    "http://data.bartkl.com/music-library/album_types": [
-      {
-        "@value": "album"
-      }
-    ],
-    "http://data.bartkl.com/music-library/country": [
-      {
-        "@value": "JP"
-      }
-    ],
-    "http://data.bartkl.com/music-library/discogs_album_id": [
-      {
-        "@value": "0"
-      }
-    ],
-    "http://data.bartkl.com/music-library/genre": [
-      {
-        "@value": "Ambient, IDM"
-      }
-    ],
-    "http://data.bartkl.com/music-library/id": [
-      {
-        "@value": "1"
-      }
-    ],
-    "http://data.bartkl.com/music-library/is_compilation": [
-      {
-        "@value": false
-      }
-    ],
-    "http://data.bartkl.com/music-library/label": [
-      {
-        "@value": "Sony Records"
-      }
-    ],
-    "http://data.bartkl.com/music-library/musicbrainz_album_artist_id": [
-      {
-        "@value": "f22942a1-6f70-4f48-866e-238cb2308fbd"
-      }
-    ],
-    "http://data.bartkl.com/music-library/musicbrainz_album_id": [
-      {
-        "@value": "524d02eb-d7ee-3e30-a690-5ce72dd723d7"
-      }
-    ],
-    "http://data.bartkl.com/music-library/original_year": [
-      {
-        "@value": "1992"
-      }
-    ],
-    "http://data.bartkl.com/music-library/year": [
-      {
-        "@value": "1992"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Selected Ambient Works 85\u201392"
-      }
-    ]
-  },
-  {
-    "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb9",
+    "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb5",
     "@type": [
       "http://schema.org/MusicRelease"
     ],
@@ -606,78 +322,7 @@
     ]
   },
   {
-    "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb10",
-    "@type": [
-      "http://schema.org/MusicRelease"
-    ],
-    "http://data.bartkl.com/music-library/album_artist": [
-      {
-        "@value": "Les McCann"
-      }
-    ],
-    "http://data.bartkl.com/music-library/album_types": [
-      {
-        "@value": "album"
-      }
-    ],
-    "http://data.bartkl.com/music-library/country": [
-      {
-        "@value": "US"
-      }
-    ],
-    "http://data.bartkl.com/music-library/discogs_album_id": [
-      {
-        "@value": "0"
-      }
-    ],
-    "http://data.bartkl.com/music-library/genre": [
-      {
-        "@value": "Fusion"
-      }
-    ],
-    "http://data.bartkl.com/music-library/id": [
-      {
-        "@value": "10"
-      }
-    ],
-    "http://data.bartkl.com/music-library/is_compilation": [
-      {
-        "@value": false
-      }
-    ],
-    "http://data.bartkl.com/music-library/label": [
-      {
-        "@value": "Water"
-      }
-    ],
-    "http://data.bartkl.com/music-library/musicbrainz_album_artist_id": [
-      {
-        "@value": "bc16d640-a069-42ec-a8c1-c24fd5c3d206"
-      }
-    ],
-    "http://data.bartkl.com/music-library/musicbrainz_album_id": [
-      {
-        "@value": "675a3a5f-6fd9-488c-b710-2cc18b3ca2b6"
-      }
-    ],
-    "http://data.bartkl.com/music-library/original_year": [
-      {
-        "@value": "1971"
-      }
-    ],
-    "http://data.bartkl.com/music-library/year": [
-      {
-        "@value": "1971"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Invitation to Openness"
-      }
-    ]
-  },
-  {
-    "@id": "_:ne8a18a06b52c497aa66f0461d925b44bb11",
+    "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb6",
     "@type": [
       "http://schema.org/MusicRelease"
     ],
@@ -744,6 +389,361 @@
     "http://purl.org/dc/terms/title": [
       {
         "@value": "Richard D. James Album"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb7",
+    "@type": [
+      "http://schema.org/MusicRelease"
+    ],
+    "http://data.bartkl.com/music-library/album_artist": [
+      {
+        "@value": "Aphex Twin"
+      }
+    ],
+    "http://data.bartkl.com/music-library/album_types": [
+      {
+        "@value": "album"
+      }
+    ],
+    "http://data.bartkl.com/music-library/country": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "http://data.bartkl.com/music-library/discogs_album_id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://data.bartkl.com/music-library/genre": [
+      {
+        "@value": "Ambient, IDM"
+      }
+    ],
+    "http://data.bartkl.com/music-library/id": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://data.bartkl.com/music-library/is_compilation": [
+      {
+        "@value": false
+      }
+    ],
+    "http://data.bartkl.com/music-library/label": [
+      {
+        "@value": "Sony Records"
+      }
+    ],
+    "http://data.bartkl.com/music-library/musicbrainz_album_artist_id": [
+      {
+        "@value": "f22942a1-6f70-4f48-866e-238cb2308fbd"
+      }
+    ],
+    "http://data.bartkl.com/music-library/musicbrainz_album_id": [
+      {
+        "@value": "524d02eb-d7ee-3e30-a690-5ce72dd723d7"
+      }
+    ],
+    "http://data.bartkl.com/music-library/original_year": [
+      {
+        "@value": "1992"
+      }
+    ],
+    "http://data.bartkl.com/music-library/year": [
+      {
+        "@value": "1992"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Selected Ambient Works 85\u201392"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb8",
+    "@type": [
+      "http://schema.org/MusicRelease"
+    ],
+    "http://data.bartkl.com/music-library/album_artist": [
+      {
+        "@value": "Aphex Twin"
+      }
+    ],
+    "http://data.bartkl.com/music-library/album_types": [
+      {
+        "@value": "album"
+      }
+    ],
+    "http://data.bartkl.com/music-library/country": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "http://data.bartkl.com/music-library/discogs_album_id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://data.bartkl.com/music-library/genre": [
+      {
+        "@value": "IDM"
+      }
+    ],
+    "http://data.bartkl.com/music-library/id": [
+      {
+        "@value": "3"
+      }
+    ],
+    "http://data.bartkl.com/music-library/is_compilation": [
+      {
+        "@value": false
+      }
+    ],
+    "http://data.bartkl.com/music-library/label": [
+      {
+        "@value": "Warp"
+      }
+    ],
+    "http://data.bartkl.com/music-library/musicbrainz_album_artist_id": [
+      {
+        "@value": "f22942a1-6f70-4f48-866e-238cb2308fbd"
+      }
+    ],
+    "http://data.bartkl.com/music-library/musicbrainz_album_id": [
+      {
+        "@value": "cf577924-6dc7-4948-841b-6f69c04f822f"
+      }
+    ],
+    "http://data.bartkl.com/music-library/original_year": [
+      {
+        "@value": "1995"
+      }
+    ],
+    "http://data.bartkl.com/music-library/year": [
+      {
+        "@value": "1995"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "\u2026I Care Because You Do"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb9",
+    "@type": [
+      "http://schema.org/MusicRelease"
+    ],
+    "http://data.bartkl.com/music-library/album_artist": [
+      {
+        "@value": "Aphex Twin"
+      }
+    ],
+    "http://data.bartkl.com/music-library/album_types": [
+      {
+        "@value": "album"
+      }
+    ],
+    "http://data.bartkl.com/music-library/country": [
+      {
+        "@value": "US"
+      }
+    ],
+    "http://data.bartkl.com/music-library/discogs_album_id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://data.bartkl.com/music-library/genre": [
+      {
+        "@value": "Ambient, IDM"
+      }
+    ],
+    "http://data.bartkl.com/music-library/id": [
+      {
+        "@value": "2"
+      }
+    ],
+    "http://data.bartkl.com/music-library/is_compilation": [
+      {
+        "@value": false
+      }
+    ],
+    "http://data.bartkl.com/music-library/label": [
+      {
+        "@value": "Sire Records"
+      }
+    ],
+    "http://data.bartkl.com/music-library/musicbrainz_album_artist_id": [
+      {
+        "@value": "f22942a1-6f70-4f48-866e-238cb2308fbd"
+      }
+    ],
+    "http://data.bartkl.com/music-library/musicbrainz_album_id": [
+      {
+        "@value": "7429a193-0c0a-40a1-abf2-6968e424f177"
+      }
+    ],
+    "http://data.bartkl.com/music-library/original_year": [
+      {
+        "@value": "1994"
+      }
+    ],
+    "http://data.bartkl.com/music-library/year": [
+      {
+        "@value": "1994"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Selected Ambient Works, Volume II"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb10",
+    "@type": [
+      "http://schema.org/MusicRelease"
+    ],
+    "http://data.bartkl.com/music-library/album_artist": [
+      {
+        "@value": "Aphex Twin"
+      }
+    ],
+    "http://data.bartkl.com/music-library/album_types": [
+      {
+        "@value": "album"
+      }
+    ],
+    "http://data.bartkl.com/music-library/country": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "http://data.bartkl.com/music-library/discogs_album_id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://data.bartkl.com/music-library/genre": [
+      {
+        "@value": "IDM"
+      }
+    ],
+    "http://data.bartkl.com/music-library/id": [
+      {
+        "@value": "6"
+      }
+    ],
+    "http://data.bartkl.com/music-library/is_compilation": [
+      {
+        "@value": false
+      }
+    ],
+    "http://data.bartkl.com/music-library/label": [
+      {
+        "@value": "Warner Music Japan"
+      }
+    ],
+    "http://data.bartkl.com/music-library/musicbrainz_album_artist_id": [
+      {
+        "@value": "f22942a1-6f70-4f48-866e-238cb2308fbd"
+      }
+    ],
+    "http://data.bartkl.com/music-library/musicbrainz_album_id": [
+      {
+        "@value": "88224d97-5fd2-48f9-bda6-1f025bcd136f"
+      }
+    ],
+    "http://data.bartkl.com/music-library/original_year": [
+      {
+        "@value": "2001"
+      }
+    ],
+    "http://data.bartkl.com/music-library/year": [
+      {
+        "@value": "2001"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Drukqs"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfdade0a79b641caadeb4a357960ffcdb11",
+    "@type": [
+      "http://schema.org/MusicRelease"
+    ],
+    "http://data.bartkl.com/music-library/album_artist": [
+      {
+        "@value": "Les McCann"
+      }
+    ],
+    "http://data.bartkl.com/music-library/album_types": [
+      {
+        "@value": "album"
+      }
+    ],
+    "http://data.bartkl.com/music-library/country": [
+      {
+        "@value": "US"
+      }
+    ],
+    "http://data.bartkl.com/music-library/discogs_album_id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://data.bartkl.com/music-library/genre": [
+      {
+        "@value": "Fusion"
+      }
+    ],
+    "http://data.bartkl.com/music-library/id": [
+      {
+        "@value": "10"
+      }
+    ],
+    "http://data.bartkl.com/music-library/is_compilation": [
+      {
+        "@value": false
+      }
+    ],
+    "http://data.bartkl.com/music-library/label": [
+      {
+        "@value": "Water"
+      }
+    ],
+    "http://data.bartkl.com/music-library/musicbrainz_album_artist_id": [
+      {
+        "@value": "bc16d640-a069-42ec-a8c1-c24fd5c3d206"
+      }
+    ],
+    "http://data.bartkl.com/music-library/musicbrainz_album_id": [
+      {
+        "@value": "675a3a5f-6fd9-488c-b710-2cc18b3ca2b6"
+      }
+    ],
+    "http://data.bartkl.com/music-library/original_year": [
+      {
+        "@value": "1971"
+      }
+    ],
+    "http://data.bartkl.com/music-library/year": [
+      {
+        "@value": "1971"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Invitation to Openness"
       }
     ]
   }

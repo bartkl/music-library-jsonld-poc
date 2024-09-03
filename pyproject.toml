@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "music-jsonld-poc2"
+name = "music-library-jsonld-poc"
 version = "0.1.0"
 description = ""
 authors = ["Bart Kleijngeld <bartkl@gmail.com>"]
@@ -10,6 +10,7 @@ python = "^3.11"
 pyld = "^2.0.4"
 rdflib = "^7.0.0"
 linkml = "^1.8.3"
+jupyter = "^1.1.1"
 
 
 [build-system]
