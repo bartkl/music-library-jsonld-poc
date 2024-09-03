@@ -6,6 +6,8 @@ prefixes:
   linkml: https://w3id.org/linkml/
   dct: http://purl.org/dc/terms/
   schema: http://schema.org/
+  foaf: http://xmlns.com/foaf/0.1/
+  mo: http://purl.org/ontology/mo/
 imports:
 - linkml:types
 default_prefix: bartkl
@@ -21,40 +23,48 @@ classes:
         multivalued: true
         range: Album
   Album:  # Deliberately ambiguous whether it's a release, grouping, recording, etc.
-    class_uri: schema:MusicRelease
+    class_uri: mo:MusicalRelease
     slots:
       - id
     attributes:
       added_at:
         range: float
       album_artist:
+        slot_uri: dct:creator  # Equivalent with `foaf:maker`
         range: string
       title:
         slot_uri: dct:title
         range: string
       genre:
+        slot_uri: mo:genre
         range: string
       discogs_album_id:
         range: string
       discogs_artist_id:
         range: string
       year:
-        range: string
+        slot_uri: dct:issued
+        range: string  # TODO: Should be date.
       original_year:
-        range: string
-      is_compilation:
+        slot_uri: dct:created
+        range: string  # TODO: Should be date.
+      is_compilation:  # TODO: Use `mo:release_type` to express the type of release. Combine with `album_types` in a way.
+                       # TODO: Why is `bartkl:is_compilation` present in the compacted version, rather than simply `is_compilation`?
         range: boolean
+      album_types:
+        range: string
       musicbrainz_album_id:
         range: string
       musicbrainz_album_artist_id:
         range: string
       label:
+        slot_uri: mo:label
         range: string
       country:
-        range: string
-      album_types:
+        slot_uri: mo:publishing_location
         range: string
       rating:
         range: integer
 slots:
   id:
+    slot_uri: dct:identifier

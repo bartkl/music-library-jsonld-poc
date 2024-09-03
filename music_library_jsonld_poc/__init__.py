@@ -45,7 +45,7 @@ def fetch_albums(conn):
         on a.id = aa.entity_id
         and aa.key = "rating"
 
-        limit 10
+        -- limit 10
     """)
     albums = [dict(row) for row in cur.fetchall()]
 
